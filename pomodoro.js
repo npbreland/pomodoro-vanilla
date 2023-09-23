@@ -87,7 +87,7 @@ const restartSession = () => {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-  initStageInUI(0);
+  initStageInUI();
 });
 
 document.addEventListener('click', function(e) {
